@@ -51,7 +51,7 @@ const DealsCarousel = ({ title }) => {
           dotListClass="custom-dot-list-style"
           className='deals'
         >
-          {initialData.products.map((p, index) => {
+          {initialData?.products.map((p, index) => {
             return (
               <div className="deals-slider" key={index}
               >
