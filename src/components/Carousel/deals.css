@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .deals-slider {
+    /* background-color: red; */
+    height: 281px;
+    width: 308px;
+    border: 1px solid #000;
+    margin:0 30px;
+    margin-top: -3rem;
+    overflow:"hidden";
+    /* padding:2rem 0; */
+    border-radius: 4px;
+    /* background-color: red; */
+  }
+
+  .deals{
+    height: 390px;
+  }
+  
+ 
+  .deals .react-multi-carousel-item{
+    max-width:20rem;
+  }
+  .deals-slider img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(243, 243, 243) ;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: #f38e6e!important;
+  /* margin-bottom: 1rem; */
+  }
+
+  .react-multi-carousel-dot{
+    /* background: #d9d9d9!important; */
+  }

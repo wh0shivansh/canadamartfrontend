@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .location-slider {
+    /* background-color: red; */
+    height: 457px;
+    width: 315px;
+    /* border: 1px solid #000; */
+    margin:0 30px;
+    overflow:"hidden";
+    /* padding:2rem 0; */
+    border-radius: 4px;
+    /* background-color: red; */
+  }
+
+  .location .react-multi-carousel-item{
+    max-width:22.1rem;
+  }
+  .location-slider img{
+    
+    border-radius: 20px;
+  }
+
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(243, 243, 243) ;
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: #f38e6e!important;
+  }
