@@ -118,8 +118,9 @@ const ViewProduct = ({ id }) => {
         <div className="md:w-2/6 mt-10 lg:mx-2 md:mx-4">
           {/* <img src={require(`../../../../server/src/uploads/${img}`)} alt="Product Image" className="w-full h-96" /> */}
           {initialData.products?.length > 0 
-            && img && <img src={require(`../../../../../server/server/src/uploads/${img}`)} alt="Product Image" className="w-full h-96" />
+            && img && <img src={require(`../../uploads/${img}`)} alt="Product Image" className="w-full h-96" />
           }
+
         </div>
 
         <div className="md:w-3/6 lg:mr-16 lg:ml-1 md:mx-4 mt-10 p-5">

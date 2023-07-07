@@ -56,7 +56,7 @@ const DealsCarousel = ({ title }) => {
               <div className="deals-slider" key={index}
               >
                 <Link to={`/product/${p._id}`}>
-                  <img src={require(`../../../../../server/server/src/uploads/${p.productImages[0]?.img}`)} alt="movie" />
+                  <img src={require(`../../uploads/${p.productImages[0]?.img}`)} alt="movie" />
                   <p className='text-lg text-[#000] mt-2 capitalize'>{p.name}</p>
                 </Link>
               </div>

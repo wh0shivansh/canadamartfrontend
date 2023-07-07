@@ -45,7 +45,7 @@ const SubCategoryCarousel = ({title,categories}) => {
           <div className="slider" key={index}
           >
           <Link to={`#`}>
-            <img src={require(`../../../../../server/server/src/uploads/${cat.img}`)} alt="movie" />
+            <img src={require(`../../uploads/${cat.img}`)} alt="movie" />
             {/* <p>{cat.name}</p> */}
           </Link>
           </div>

@@ -6,7 +6,7 @@ const Product = ({ product }) => {
     <Link to={`/product/${product._id}`} >
       <div className="bg-white border-2 w-60 p-8 border-white rounded-lg shadow-lg">
         <img
-          src={require(`../../../../../server/server/src/uploads/${product.productImages[0].img}`)}
+          src={require(`../../uploads/${product.productImages[0].img}`)}
           alt={product.name}
           className="h-40 w-30 object-cover object-center border border-black rounded-lg"
         />
